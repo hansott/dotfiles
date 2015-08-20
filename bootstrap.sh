@@ -20,10 +20,3 @@ fi;
 unset doIt;
 
 cp -r Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
-
-mkdir -p ~/.fonts
-cp -f ./awesome-terminal-fonts/build/*.ttf ~/.fonts
-cp -f ./awesome-terminal-fonts/build/*.sh ~/.fonts
-mkdir -p ~/.config/fontconfig/conf.d
-cp -f ./awesome-terminal-fonts/config/* ~/.config/fontconfig/conf.d
-fc-cache -fv ~/.fonts
