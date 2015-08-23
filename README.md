@@ -1,0 +1,13 @@
+# Dotfiles
+
+My configuration for OS X. Inspired by https://mths.be/dotfiles.
+
+## Installing
+
+1. `git clone https://github.com/hansott/dotfiles.git --recursive && cd dotfiles && source bootstrap.sh`
+2. Install the font in `/fonts`
+3. Configure terminal to use that font.
+
+## Updating
+
+`cd ~/dotfiles && git pull && source bootstrap.sh`
