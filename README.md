@@ -10,4 +10,4 @@ My configuration for OS X. Inspired by https://mths.be/dotfiles.
 
 ## Updating
 
-`cd ~/dotfiles && git pull && source update.sh`
+`cd ~/dotfiles && source update.sh`
