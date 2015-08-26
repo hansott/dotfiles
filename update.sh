@@ -3,7 +3,6 @@
 cd "$(dirname "${BASH_SOURCE}")";
 
 function doIt() {
-    git pull origin master
     git submodule foreach git pull origin master
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "update.sh" \
 		--exclude "README.md" --exclude "LICENSE-MIT.txt" -avh --no-perms . ~;
