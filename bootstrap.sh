@@ -18,5 +18,3 @@ else
 	fi;
 fi;
 unset doIt;
-
-cp -r Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
