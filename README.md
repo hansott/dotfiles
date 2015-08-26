@@ -4,7 +4,9 @@ My configuration for OS X. Inspired by https://mths.be/dotfiles.
 
 ## Installing
 
-`git clone https://github.com/hansott/dotfiles.git && cd dotfiles && source bootstrap.sh`
+1. `git clone https://github.com/hansott/dotfiles.git ~/dotfiles --recursive && cd ~/dotfiles && source bootstrap.sh`
+2. Install the font in `/fonts`
+3. Configure terminal to use that font.
 
 ## Updating
 
