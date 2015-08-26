@@ -11,3 +11,8 @@ My configuration for OS X. Inspired by https://mths.be/dotfiles.
 ## Updating
 
 `cd ~/dotfiles && git pull origin master && source update.sh`
+
+## Todo
+
+* [ ] List all required brew tools.
+* [ ] List all required brew cask applications.
