@@ -14,6 +14,6 @@ My configuration for OS X. Inspired by https://mths.be/dotfiles.
 
 ## Todo
 
-* [ ] List all required brew tools.
-* [ ] List all required brew cask applications.
-* [ ] Make custom oh-my-git theme to match solarized dark theme.
+* [x] List all required brew tools. ~> `./install-software`
+* [x] List all required brew cask applications. ~> `./install-software`
+* [x] Make custom oh-my-git theme to match solarized dark theme. ~> `init/Solarized Dark ansi.terminal`
