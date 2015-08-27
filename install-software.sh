@@ -66,21 +66,18 @@ apps=(
     slack
     appcleaner
     firefox
-    hazel
     qlmarkdown
     spotify
     vagrant
     flash
     iterm2
     qlprettypatch
-    shiori
     sublime-text3
     virtualbox
     atom
     flux
     qlstephen
     vlc
-    nvalt
     quicklook-json
     skype
     transmission
@@ -90,7 +87,7 @@ apps=(
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 echo "installing apps..."
-brew cask install --appdir="/Applications" ${apps[@]}
+brew cask install ${apps[@]}
 
 # Install Mackup
 pip install mackup
