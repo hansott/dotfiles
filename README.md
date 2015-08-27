@@ -7,6 +7,7 @@ My configuration for OS X. Inspired by https://mths.be/dotfiles.
 1. `git clone https://github.com/hansott/dotfiles.git ~/dotfiles --recursive && cd ~/dotfiles && source update.sh`
 2. Install the fonts in `init/`
 3. Import `init/Solarized Dark ansi.terminal` in your terminal and set as default.
+4. [Optional] Install software `./install-software`
 
 ## Updating
 
