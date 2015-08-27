@@ -82,6 +82,8 @@ apps=(
     skype
     transmission
     carthage
+    spectacle
+    caffeine
 )
 
 # Install apps to /Applications
