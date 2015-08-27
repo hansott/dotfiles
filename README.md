@@ -16,3 +16,4 @@ My configuration for OS X. Inspired by https://mths.be/dotfiles.
 
 * [ ] List all required brew tools.
 * [ ] List all required brew cask applications.
+* [ ] Tweak oh-my-git color scheme.
