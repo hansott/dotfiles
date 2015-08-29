@@ -2,8 +2,7 @@
 
 My configuration for OS X.
 
-![Sublime](/assets/img/sublime.png)
-![Terminal](/assets/img/terminal.png)
+![](/assets/img/banner.png)
 
 ## Installing
 
