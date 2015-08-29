@@ -22,15 +22,15 @@ brew tap caskroom/versions
 
 # Install sublime-text3
 echo '>> Installing Sublime Text 3...'
-brew cask install sublime-text3
+brew cask install --appdir=/Applications sublime-text3
 
 # Install Predawn theme
 echo '>> Installing Predawn theme...'
-git clone https://github.com/jamiewilson/predawn.git ~/Library/Application\ Support/Sublime\ Text*/Packages/predawn 2> /dev/null
-cd ~/Library/Application\ Support/Sublime\ Text*/Packages/predawn && git pull origin master
+git clone https://github.com/jamiewilson/predawn.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/predawn
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/predawn && git pull origin master
 
 # Copy Sublime settings
 echo '>> Copying Sublime Text settings...'
-cp -r assets/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
+cp -r ~/dotfiles/assets/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 echo '>> Sublime Text is installed and configured.'
