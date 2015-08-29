@@ -1,8 +1,4 @@
-# Dotfiles
-
-My configuration for OS X.
-
-![](/assets/img/banner.png)
+![](/assets/img/banner.jpg)
 
 ## Installing
 
