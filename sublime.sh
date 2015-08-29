@@ -32,5 +32,6 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/predawn && git pull 
 # Copy Sublime settings
 echo '>> Copying Sublime Text settings...'
 cp -r ~/dotfiles/assets/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+cp -r ~/dotfiles/assets/sublime/Markdown.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Markdown.sublime-settings
 
 echo '>> Sublime Text is installed and configured.'
