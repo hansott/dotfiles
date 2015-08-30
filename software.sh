@@ -38,6 +38,7 @@ binaries=(
     webkit2png
     rename
     zopfli
+    httpie
     ffmpeg
     python
     sshfs
