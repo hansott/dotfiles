@@ -14,6 +14,7 @@ if test ! $(which brew); then
 fi
 
 # Make sure we’re using the latest Homebrew.
+echo "Updating Homebrew..."
 brew update
 
 # Upgrade any already-installed formulae.
@@ -30,10 +31,9 @@ sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 
-brew install wget --with-iri
-brew install imagemagick --with-webp
-
 binaries=(
+    wget --with-iri
+    imagemagick --with-webp
     graphicsmagick
     webkit2png
     rename
@@ -49,11 +49,13 @@ binaries=(
     git
     speedtest_cli
     ssh-copy-id
+    asepsis
 )
 
-echo "installing binaries..."
+echo "Installing binaries..."
 brew install ${binaries[@]}
 
+echo "Installing Homebrew cask..."
 brew install caskroom/cask/brew-cask
 
 # Apps
@@ -87,8 +89,7 @@ apps=(
 )
 
 # Install apps to /Applications
-# Default is: /Users/$user/Applications
-echo "installing apps..."
+echo "Installing applications..."
 brew cask install --appdir=/Applications ${apps[@]}
 
 # Install Mackup
@@ -96,5 +97,4 @@ pip install mackup
 
 # Cleanup
 brew cleanup
-
 echo "That's it folks!"
