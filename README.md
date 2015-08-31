@@ -50,7 +50,7 @@ Run `./software.sh` to install the software.
 * git
 * **speedtest_cli** to test your internet connection
 * **ssh-copy-id** to copy your ssh key to a server
-* **asepsis** to remove those annoying .DS_Store files
+* dos2unix
 
 ### Mac OS X Apps
 * alfred
@@ -79,4 +79,5 @@ Run `./software.sh` to install the software.
 * carthage
 * spectacle
 * caffeine
+* **asepsis** to remove those annoying .DS_Store files
 

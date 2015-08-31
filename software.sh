@@ -50,7 +50,7 @@ binaries=(
     git
     speedtest_cli
     ssh-copy-id
-    asepsis
+    dos2unix
 )
 
 echo "Installing binaries..."
@@ -87,6 +87,7 @@ apps=(
     carthage
     spectacle
     caffeine
+    asepsis
 )
 
 # Install apps to /Applications
