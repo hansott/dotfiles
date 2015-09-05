@@ -1,10 +1,10 @@
-![](/assets/img/banner.jpg)
-
 ## Installing
 
+1. Install Oh My Zsh:
+    `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 1. `git clone https://github.com/hansott/dotfiles.git ~/dotfiles --recursive && cd ~/dotfiles && source update.sh`
-2. Install the fonts in `/fonts`
-3. Install terminal themes:
+2. Install Source Code Pro font (`/fonts`)
+3. Install the terminal theme:
     * Terminal.app: `assets/terminal/solarized-dark-terminal-app.terminal`
     * iTerm: `assets/terminal/solarized-dark-iterm2.itermcolors`
 4. (Optional) Install software:
@@ -15,12 +15,6 @@
 ## Updating
 
 `cd ~/dotfiles && git pull origin master && source update.sh`
-
-## Bash
-
-Run `./update.sh` to make your terminal look like this:
-
-![](assets/img/terminal.png)
 
 ## Sublime
 
