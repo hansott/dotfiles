@@ -6,6 +6,9 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# Install Source Code Pro font
+cp -r ~/dotfiles/assets/fonts/SourceCodePro-regular.otf ~/Library/Fonts/SourceCodePro-regular.otf
+
 # Check for Homebrew, install if we don't have it.
 if test ! $(which brew); then
     echo ">> Installing homebrew..."

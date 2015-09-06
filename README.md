@@ -1,18 +1,20 @@
-## Installing
+# Dotfiles
 
-1. Install Oh My Zsh:
+This is my configuration for OS X.
+
+## Bash
+
+### Installing
+
+1. Install Oh My Zsh (Optional, but recommended):
     `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-1. `git clone https://github.com/hansott/dotfiles.git ~/dotfiles --recursive && cd ~/dotfiles && source update.sh`
-2. Install Source Code Pro font (`/fonts`)
+2. Install dotfiles:
+    `git clone https://github.com/hansott/dotfiles.git ~/dotfiles && cd ~/dotfiles && source update.sh`
 3. Install the terminal theme:
     * Terminal.app: `assets/terminal/solarized-dark-terminal-app.terminal`
-    * iTerm: `assets/terminal/solarized-dark-iterm2.itermcolors`
-4. (Optional) Install software:
-    `source software.sh`
-5. (Optional) Install sublime and configure it:
-    `source sublime.sh`
+    * iTerm (Recommended): `assets/terminal/solarized-dark-iterm2.itermcolors`
 
-## Updating
+### Updating
 
 `cd ~/dotfiles && git pull origin master && source update.sh`
 
