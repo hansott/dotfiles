@@ -52,8 +52,15 @@ ZSH_THEME="agnoster"
 plugins=(git, laravel5, laravel4)
 
 # User configuration
-
-export PATH="/Applications/MAMP/bin/php/php5.6.10/bin:~/.composer/vendor/bin:/Applications/MAMP/bin/php/php5.6.10/bin:/Users/hansott/.rbenv/shims:/Users/hansott/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/usr/texbin"
+export PATH="/usr/local/bin:$PATH";
+export PATH="$HOME/bin:$PATH";
+export PATH="/usr/local/bin:$PATH";
+export PATH="/usr/bin:$PATH";
+export PATH="/usr/sbin:$PATH";
+export PATH="/usr/texbin:$PATH";
+export PATH="/opt/X11/bin:$PATH";
+export PATH="/usr/local/git/bin:$PATH";
+export PATH="/bin:$PATH";
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
