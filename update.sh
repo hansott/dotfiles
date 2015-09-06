@@ -4,18 +4,18 @@ cd "$(dirname "${BASH_SOURCE}")";
 
 function doIt() {
     git submodule foreach git pull origin master
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "update.sh" \
-		--exclude "README.md" --exclude "LICENSE-MIT.txt" --exclude "assets/" --exclude "fonts/" --exclude "sublime.sh" --exclude "software.sh" -avh --no-perms . ~;
-	source ~/.bash_profile;
+    rsync --exclude ".git/" --exclude ".DS_Store" --exclude "update.sh" \
+        --exclude "README.md" --exclude "LICENSE-MIT.txt" --exclude "assets/" --exclude "fonts/" --exclude "sublime.sh" --exclude "software.sh" -avh --no-perms . ~;
+    source ~/.bash_profile;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
-	doIt;
+    doIt;
 else
-	read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1;
-	echo "";
-	if [[ $REPLY =~ ^[Yy]$ ]]; then
-		doIt;
-	fi;
+    read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1;
+    echo "";
+    if [[ $REPLY =~ ^[Yy]$ ]]; then
+        doIt;
+    fi;
 fi;
 unset doIt;
