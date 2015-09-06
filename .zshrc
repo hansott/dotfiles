@@ -25,7 +25,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Load the shell dotfiles
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.{exports,functions,extra,mamp}; do
+for file in ~/.{exports,aliases,functions,extra,mamp}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
