@@ -4,6 +4,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Paths to binaries
 export PATH="$HOME/bin:$PATH";
 export PATH="/usr/local/bin:$PATH";
+export PATH="$HOME/.composer/vendor/bin:$PATH";
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
