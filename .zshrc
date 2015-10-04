@@ -19,7 +19,7 @@ COMPLETION_WAITING_DOTS=true
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git laravel5)
+plugins=(git laravel5 brew composer httpie urltools web-search)
 
 # Bootstrap Oh My Zsh
 source $ZSH/oh-my-zsh.sh
