@@ -2,7 +2,7 @@
 
 This is my configuration for OS X.
 
-## Bash
+## Terminal
 
 ### Installing
 
