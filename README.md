@@ -46,7 +46,8 @@ Run `./software.sh` to install the software.
 * git
 * **speedtest_cli** to test your internet connection
 * **ssh-copy-id** to copy your ssh key to a server
-* dos2unix
+* [dos2unix](http://www.linuxcommand.org/man_pages/dos2unix1.html) - DOS/MAC to UNIX text file format converter.
+* [git-extras](https://github.com/tj/git-extras) - Repo summary, author commit percentages and more.
 
 ### Mac OS X Apps
 * alfred
