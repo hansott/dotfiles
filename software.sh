@@ -51,6 +51,7 @@ binaries=(
     speedtest_cli
     ssh-copy-id
     dos2unix
+    git-extras
 )
 
 echo "Installing binaries..."
