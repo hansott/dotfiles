@@ -37,7 +37,6 @@ binaries=(
     graphicsmagick
     webkit2png
     rename
-    zopfli
     httpie
     ffmpeg
     python
@@ -52,6 +51,7 @@ binaries=(
     ssh-copy-id
     dos2unix
     git-extras
+    carthage
 )
 
 echo "Installing binaries..."
@@ -66,7 +66,6 @@ apps=(
     dropbox
     google-chrome
     qlcolorcode
-    screenflick
     slack
     appcleaner
     firefox
@@ -85,7 +84,6 @@ apps=(
     quicklook-json
     skype
     transmission
-    carthage
     spectacle
     caffeine
 )
@@ -93,9 +91,6 @@ apps=(
 # Install apps to /Applications
 echo "Installing applications..."
 brew cask install --appdir=/Applications ${apps[@]}
-
-# Install Mackup
-pip install mackup
 
 # Cleanup
 brew cleanup
