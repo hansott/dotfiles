@@ -88,7 +88,6 @@ apps=(
     carthage
     spectacle
     caffeine
-    asepsis
 )
 
 # Install apps to /Applications
