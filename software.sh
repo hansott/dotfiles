@@ -57,14 +57,12 @@ packages=(
     graphicsmagick
     webkit2png
     rename
-    httpie
     ffmpeg
     python
     trash
     node
     tree
     ack
-    hub
     git
     speedtest_cli
     ssh-copy-id
@@ -108,7 +106,6 @@ casks=(
     qlprettypatch
     sublime-text3
     virtualbox
-    atom
     flux
     qlstephen
     vlc
