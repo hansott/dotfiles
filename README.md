@@ -29,25 +29,20 @@ Run `./sublime.sh` to make your sublime look like this:
 Run `./software.sh` to install the software.
 
 ### Command Line Tools
-* **wget** to download files from the command line
-* imagemagick
-* graphicsmagick
-* webkit2png
-* rename
-* zopfli
-* **httpie** to test http requests
-* ffmpeg
-* sshfs
-* trash
-* node.js
-* tree
-* ack
-* hub
-* git
-* **speedtest_cli** to test your internet connection.
-* **ssh-copy-id** to copy your ssh key to a server.
+* [GNU Wget](https://www.gnu.org/software/wget/) - GNU Wget is a free software package for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols. 
+* [ImageMagick](http://www.imagemagick.org/script/index.php) - ImageMagick is a software suite to create, edit, compose, or convert bitmap images.
+* [GraphicsMagick](http://www.graphicsmagick.org/) - GraphicsMagick is the swiss army knife of image processing.
+* [webkit2png](http://www.paulhammond.org/webkit2png/) - webkit2png is a command line tool that creates screenshots of webpages.
+* [FFmpeg](https://ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video.
+* [trash](http://hasseg.org/trash/) - Trash is a small command-line program for OS X that moves files or folders to the trash.
+* [Node.js](https://nodejs.org/) - Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+* [Tree](http://mama.indstate.edu/users/ice/tree/) - Tree is a recursive directory listing command that produces a depth indented listing of files.
+* [ack](http://beyondgrep.com/) - Ack is a tool like grep, optimized for programmers.
+* [git](http://www.git-scm.com/) - Git is a free and open source distributed version control system.
 * [dos2unix](http://www.linuxcommand.org/man_pages/dos2unix1.html) - DOS/MAC to UNIX text file format converter.
-* [git-extras](https://github.com/tj/git-extras) - Repo summary, author commit percentages and more.
+* [Git Extras](https://github.com/tj/git-extras) - Repo summary, author commit percentages and more.
+* [speedtest-cli](https://github.com/sivel/speedtest-cli) - Command line interface for testing internet bandwidth using speedtest.net.
+* [ssh-copy-id](http://www.openssh.com/) - Install your public key in a remote machine's authorized_keys.
 
 ### Mac OS X Apps
 * **alfred** Alfred is a productivity application for Mac OS X, which boosts your efficiency with hotkeys and keywords. Search your Mac and the web, and control your Mac using custom actions with the Powerpack.
@@ -64,7 +59,6 @@ Run `./software.sh` to install the software.
 * **iTerm2** is a replacement for Terminal and the successor to iTerm.
 * **qlprettypatch** QuickLook generator for patch files.
 * **Virtualbox** is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. 
-* **Atom** is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
 * **f.lux** is free software that warms up your computer display at night, to match your indoor lighting.
 * **qlstephen** A QuickLook plugin that lets you view plain text files without a file extension.
 * **VLC** is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.

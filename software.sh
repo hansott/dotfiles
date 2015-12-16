@@ -56,7 +56,6 @@ packages=(
     imagemagick
     graphicsmagick
     webkit2png
-    rename
     ffmpeg
     python
     trash
