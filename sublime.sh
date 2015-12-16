@@ -25,7 +25,7 @@ brew tap caskroom/versions
 
 # Install sublime-text3
 echo '>> Installing Sublime Text 3...'
-brew cask install --appdir=/Applications sublime-text3
+brew cask install sublime-text3
 
 # Install Predawn theme
 echo '>> Installing Predawn theme...'
