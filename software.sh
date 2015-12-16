@@ -122,7 +122,7 @@ if [[ "$list" ]]; then
     for item in ${list[@]}
         do
             echo "Cask $item is not installed."
-            brew cask install --appdir=/Applications $item
+            brew cask install $item
         done
 else
     echo "All homebrew casks are installed."
