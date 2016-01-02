@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Load utility functions
+source .functions
+
 cd "$(dirname "${BASH_SOURCE}")";
 
 function doIt() {
@@ -24,6 +27,7 @@ else
     echo "";
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         doIt;
+        echo_warning "Remember to source ~./zshrc"
     fi;
 fi;
 unset doIt;

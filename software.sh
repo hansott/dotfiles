@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Load utility functions
+source .functions
+
 # Ask for the administrator password upfront.
 sudo -v
 
@@ -9,12 +12,12 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Check for Homebrew,
 # Install if we don't have it
 if test ! $(which brew); then
-    echo "Installing homebrew..."
+    echo_warning "Installing homebrew..."
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # Make sure we’re using the latest Homebrew.
-echo "Updating Homebrew..."
+echo_warning "Updating Homebrew..."
 brew update
 
 # Upgrade any already-installed formulae.
@@ -71,24 +74,21 @@ packages=(
 )
 
 echo "Installing homebrew packages..."
+brew install caskroom/cask/brew-cask
 list="$(to_install "${packages[*]}" "$(brew list)")"
 if [[ "$list" ]]; then
     for item in ${list[@]}
         do
-            echo "$item is not installed."
+            echo_fail "$item is not installed."
             brew install $item
         done
 else
-    echo "All homebrew packages are installed."
+    echo_success "All homebrew packages are installed."
 fi
 
 #
 # Homebrew casks
 #
-if test ! $(which brew); then
-    echo "Installing homebrew cask..."
-    brew install caskroom/cask/brew-cask
-fi
 casks=(
     alfred
     dropbox
@@ -114,20 +114,19 @@ casks=(
     spectacle
     caffeine
 )
-# Install casks to /Applications
-echo "Installing homebrew casks..."
+echo_warning "Installing homebrew casks..."
 list="$(to_install "${casks[*]}" "$(brew cask list)")"
 if [[ "$list" ]]; then
     for item in ${list[@]}
         do
-            echo "Cask $item is not installed."
+            echo_fail "Cask $item is not installed."
             brew cask install $item
         done
 else
-    echo "All homebrew casks are installed."
+    echo_success "All homebrew casks are installed."
 fi
 
 # Cleanup
 brew cleanup
 brew-cask cleanup
-echo "Done."
+echo_success "Done"
