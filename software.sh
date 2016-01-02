@@ -71,6 +71,7 @@ packages=(
     dos2unix
     git-extras
     carthage
+    wifi-password
 )
 
 echo "Installing homebrew packages..."
