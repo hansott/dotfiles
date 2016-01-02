@@ -10,7 +10,7 @@ export PATH="$HOME/.composer/vendor/bin:$PATH";
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="avit"
 
 # Show waiting dots
 COMPLETION_WAITING_DOTS=true
