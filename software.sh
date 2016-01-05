@@ -72,6 +72,7 @@ packages=(
     git-extras
     carthage
     wifi-password
+    bitbar
 )
 
 echo "Installing homebrew packages..."

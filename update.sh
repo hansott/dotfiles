@@ -8,13 +8,14 @@ cd "$(dirname "${BASH_SOURCE}")";
 function doIt() {
     git submodule foreach git pull origin master
     rsync --exclude ".git/" \
-          --exclude ".idea/" \
           --exclude ".DS_Store" \
-          --exclude "update.sh" \
-          --exclude "README.md" \
+          --exclude ".idea/" \
           --exclude "assets/" \
+          --exclude "bitbar/"
+          --exclude "update.sh" \
           --exclude "sublime.sh" \
           --exclude "software.sh" \
+          --exclude "README.md" \
           -avh \
           --no-perms \
           . ~;
