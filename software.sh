@@ -73,6 +73,7 @@ packages=(
     carthage
     wifi-password
     bitbar
+    fpp
 )
 
 echo "Installing homebrew packages..."
