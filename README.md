@@ -2,31 +2,9 @@
 
 This is my configuration for OS X.
 
-## Terminal
-
-### Installing
-
-1. Install Oh My Zsh (Optional, but recommended):
-    `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-2. Install dotfiles:
-    `git clone https://github.com/hansott/dotfiles.git ~/dotfiles && cd ~/dotfiles && source update.sh`
-3. Install the terminal theme:
-    * Terminal.app: `assets/terminal/solarized-dark-terminal-app.terminal`
-    * iTerm (Recommended): `assets/terminal/solarized-dark-iterm2.itermcolors`
-
-### Updating
-
-`cd ~/dotfiles && git pull origin master && source update.sh`
-
-## Sublime
-
-Run `./sublime.sh` to make your sublime look like this:
-
-![](assets/img/sublime.png)
-
 ## Software
 
-Run `./software.sh` to install the software.
+Run `./software.sh` to install all the things!
 
 ### Command Line Tools
 * [GNU Wget](https://www.gnu.org/software/wget/) - GNU Wget is a free software package for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols.
