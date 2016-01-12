@@ -11,7 +11,7 @@ This is my configuration for OS X.
 * [trash](http://hasseg.org/trash/) - Trash is a small command-line program for OS X that moves files or folders to the trash.
 * [Node.js](https://nodejs.org/) - Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 * [Tree](http://mama.indstate.edu/users/ice/tree/) - Tree is a recursive directory listing command that produces a depth indented listing of files.
-* [ack](http://beyondgrep.com/) - Ack is a tool like grep, optimized for programmers.
+* [the_silver_searcher](https://github.com/ggreer/the_silver_searcher) - A code-searching tool similar to ack, but faster.
 * [git](http://www.git-scm.com/) - Git is a free and open source distributed version control system.
 * [dos2unix](http://www.linuxcommand.org/man_pages/dos2unix1.html) - DOS/MAC to UNIX text file format converter.
 * [Git Extras](https://github.com/tj/git-extras) - Repo summary, author commit percentages and more.

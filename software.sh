@@ -64,7 +64,6 @@ packages=(
     trash
     node
     tree
-    ack
     git
     speedtest_cli
     ssh-copy-id
@@ -74,6 +73,7 @@ packages=(
     wifi-password
     bitbar
     fpp
+    the_silver_searcher
 )
 
 echo "Installing homebrew packages..."
