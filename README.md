@@ -43,6 +43,7 @@ Run `./software.sh` to install the software.
 * [Git Extras](https://github.com/tj/git-extras) - Repo summary, author commit percentages and more.
 * [speedtest-cli](https://github.com/sivel/speedtest-cli) - Command line interface for testing internet bandwidth using speedtest.net.
 * [ssh-copy-id](http://www.openssh.com/) - Install your public key in a remote machine's authorized_keys.
+* [fpp](https://github.com/facebook/PathPicker) - Why Pipe when you can Pick?
 
 ### Mac OS X Apps
 * **alfred** Alfred is a productivity application for Mac OS X, which boosts your efficiency with hotkeys and keywords. Search your Mac and the web, and control your Mac using custom actions with the Powerpack.
@@ -68,4 +69,4 @@ Run `./software.sh` to install the software.
 * **Carthage** A simple, decentralized dependency manager for Cocoa.
 * **Spectacle** Window control with simple and customizable keyboard shortcuts.
 * **Caffeine** Caffeine is a tiny program that puts an icon in the right side of your menu bar. Click it to prevent your Mac from automatically going to sleep, dimming the screen or starting screen savers.
-
+* [BitBar](https://github.com/matryer/bitbar) - Put the output from any script or program in your Menu Bar
