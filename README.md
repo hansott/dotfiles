@@ -2,11 +2,7 @@
 
 This is my configuration for OS X.
 
-## Software
-
-Run `./software.sh` to install all the things!
-
-### Command Line Tools
+## Command Line Tools
 * [GNU Wget](https://www.gnu.org/software/wget/) - GNU Wget is a free software package for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols.
 * [ImageMagick](http://www.imagemagick.org/script/index.php) - ImageMagick is a software suite to create, edit, compose, or convert bitmap images.
 * [GraphicsMagick](http://www.graphicsmagick.org/) - GraphicsMagick is the swiss army knife of image processing.
@@ -23,7 +19,7 @@ Run `./software.sh` to install all the things!
 * [ssh-copy-id](http://www.openssh.com/) - Install your public key in a remote machine's authorized_keys.
 * [fpp](https://github.com/facebook/PathPicker) - Why Pipe when you can Pick?
 
-### Mac OS X Apps
+## Mac OS X Apps
 * **alfred** Alfred is a productivity application for Mac OS X, which boosts your efficiency with hotkeys and keywords. Search your Mac and the web, and control your Mac using custom actions with the Powerpack.
 * **dropbox** No description needed.
 * **google-chrome** No description needed.
