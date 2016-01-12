@@ -117,6 +117,7 @@ casks=(
     spectacle
     caffeine
     licecap
+    sublime-text3
 )
 echo_warning "Installing homebrew casks..."
 list="$(to_install "${casks[*]}" "$(brew cask list)")"
