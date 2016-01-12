@@ -115,6 +115,7 @@ casks=(
     transmission
     spectacle
     caffeine
+    licecap
 )
 echo_warning "Installing homebrew casks..."
 list="$(to_install "${casks[*]}" "$(brew cask list)")"
