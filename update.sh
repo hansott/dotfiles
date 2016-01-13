@@ -14,7 +14,6 @@ function doIt() {
           --exclude "bitbar/"
           --exclude "update.sh" \
           --exclude "sublime.sh" \
-          --exclude "software.sh" \
           --exclude "README.md" \
           -avh \
           --no-perms \
