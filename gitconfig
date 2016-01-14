@@ -173,3 +173,7 @@
 
 [url "git://gist.github.com/"]
 
+[include]
+
+    path = ~/.gitconfig.local
+
