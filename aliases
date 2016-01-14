@@ -12,6 +12,7 @@ alias gaa="git add --all"
 alias gc="git commit -v"
 alias gd="git diff"
 alias gl="git pull"
+alias gp="git push"
 
 # Shortcuts
 alias d="cd ~/Dropbox"
