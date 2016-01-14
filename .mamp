@@ -1,6 +1,0 @@
-# Use MAMP version of PHP
-PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1`
-export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH
-
-# Create alias for MySql
-alias mysql="/Applications/MAMP/Library/bin/mysql"
