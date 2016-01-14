@@ -6,6 +6,13 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# Git
+alias ga="git add"
+alias gaa="git add --all"
+alias gc="git commit -v"
+alias gd="git diff"
+alias gl="git pull"
+
 # Shortcuts
 alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
@@ -43,7 +50,7 @@ alias mkdir="mkdir -p"
 # The editor program called by sudoedit, vipw, and other such programs when you tell them to edit a file.
 alias e="$EDITOR"
 
-This variable is used to specify the "visual" - screen-oriented - editor. Generally you will want to set it to the same value as the EDITOR variable.
+# This variable is used to specify the "visual" - screen-oriented - editor. Generally you will want to set it to the same value as the EDITOR variable.
 alias v="$VISUAL"
 
 # Pretty print the path
