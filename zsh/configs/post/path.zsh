@@ -9,4 +9,7 @@ fi
 # mkdir .git/safe in the root of repositories you trust
 PATH=".git/safe/../../bin:$PATH"
 
+# Add composer path
+PATH="$HOME/.composer/vendor/bin:$PATH"
+
 export -U PATH
