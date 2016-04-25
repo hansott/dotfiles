@@ -13,3 +13,6 @@ PATH=".git/safe/../../bin:$PATH"
 PATH="$HOME/.composer/vendor/bin:$PATH"
 
 export -U PATH
+
+# The GOPATH environment variable specifies the location of your workspace.
+export GOPATH="$HOME/.go"
