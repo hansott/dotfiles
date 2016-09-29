@@ -1,3 +1,9 @@
+[user]
+
+    name = Hans Ott
+    email = hansott@hotmail.be
+    signingkey = A7092A8CF373A225
+
 [alias]
 
     # View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -99,6 +105,7 @@
 [commit]
 
     template = ~/.gitmessage
+    gpgsign = true
 
 [color]
 
