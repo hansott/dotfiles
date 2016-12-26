@@ -6,10 +6,7 @@ if command -v rbenv >/dev/null; then
     eval "$(rbenv init - --no-rehash)"
 fi
 
-# mkdir .git/safe in the root of repositories you trust
-PATH=".git/safe/../../bin:$PATH"
-
-# Add composer path
+# Composer
 PATH="$HOME/.composer/vendor/bin:$PATH"
 
 export -U PATH
