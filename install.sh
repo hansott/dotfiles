@@ -1,5 +1,7 @@
 for package in */ ; do
-    stow "$package"
-    echo "Installed $package"
+	echo "Installing $package..."
+	stow "$package"
 done
+echo "Installing vim plugins..."
+vim +PluginInstall +qall
 echo "Done"
