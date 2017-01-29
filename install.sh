@@ -1,4 +1,5 @@
 for package in */ ; do
     stow "$package"
-    echo "Symlinked $package"
+    echo "Installed $package"
 done
+echo "Done"
