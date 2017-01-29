@@ -392,8 +392,7 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+Plugin 'gmarik/Vundle.vim' " let Vundle manage Vundle, required
 Plugin 'NLKNguyen/papercolor-theme'
 
 " All of your Plugins must be added before the following line
