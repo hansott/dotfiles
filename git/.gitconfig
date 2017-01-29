@@ -1,3 +1,7 @@
+[user]
+	name = Hans Ott
+	email = hansott@hotmail.be
+
 [alias]
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -112,6 +116,3 @@
 	default = matching
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	followTags = true
-[user]
-	name = Hans Ott
-	email = hansott@hotmail.be
