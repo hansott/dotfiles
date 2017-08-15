@@ -10,10 +10,10 @@ if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
 fi;
 
 brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/less
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install grep
+brew install less
+brew install openssh
+brew install screen
 brew install git-extras
 brew install the_silver_searcher
 brew install tree
