@@ -183,6 +183,12 @@ vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 map <space> /
 map <c-space> ?
 
+" Disable arrow keys (http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/)
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 " Disable highlight when <leader><cr> is pressed
 map <silent> <leader><cr> :noh<cr>
 
