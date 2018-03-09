@@ -144,3 +144,5 @@ alias reload="exec $SHELL -l"
 
 # Lists all services and the ports they are listening on
 alias services="lsof -iTCP -sTCP:LISTEN -n -P"
+
+alias unix="date -r"
