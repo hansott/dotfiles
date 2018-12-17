@@ -1,6 +1,1 @@
 #!/usr/bin/env bash
-
-# load rbenv if available
-if command -v rbenv >/dev/null; then
-	eval "$(rbenv init - --no-rehash)"
-fi
