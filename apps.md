@@ -15,7 +15,7 @@ This is a list of applications that I daily use.
 - [Skype](https://www.skype.com/nl/download-skype)
 - [Transmission](https://transmissionbt.com/)
 - [Spectacle](https://www.spectacleapp.com)
-- [Lungo](https://sindresorhus.com/lungo)
+- [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 - [LICEcap](http://www.cockos.com/licecap/)
 - [LastPass](https://lastpass.com/misc_download2.php)
 - [Sublime Text](https://www.sublimetext.com)
