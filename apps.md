@@ -13,7 +13,7 @@ This is a list of applications that I daily use.
 - [VLC](http://www.videolan.org/vlc/)
 - [Skype](https://www.skype.com/nl/download-skype)
 - [Transmission](https://transmissionbt.com/)
-- [Spectacle](https://www.spectacleapp.com)
+- [Rectangle](https://github.com/rxhanson/Rectangle)
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 - [LICEcap](http://www.cockos.com/licecap/)
 - [1Password](https://1password.com/downloads/mac/)
