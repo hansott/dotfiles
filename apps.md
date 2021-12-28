@@ -3,7 +3,7 @@
 This is a list of applications that I daily use.
 
 - [Alfred](https://www.alfredapp.com/)
-- [Dropbox](https://www.dropbox.com/install)
+- [Dropbox with Capture](https://www.dropbox.com/install)
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 - [Appcleaner](https://freemacsoft.net/appcleaner/)
 - [Firefox](https://www.mozilla.org/nl/firefox/new/)
@@ -15,7 +15,6 @@ This is a list of applications that I daily use.
 - [Transmission](https://transmissionbt.com/)
 - [Rectangle](https://github.com/rxhanson/Rectangle)
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
-- [LICEcap](http://www.cockos.com/licecap/)
 - [1Password](https://1password.com/downloads/mac/)
 - [Sublime Text](https://www.sublimetext.com)
 - [PhpStorm](https://www.jetbrains.com/phpstorm/download/)
